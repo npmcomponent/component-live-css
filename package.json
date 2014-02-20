@@ -1,0 +1,18 @@
+{
+  "name": "component-live-css",
+  "description": "CSS changes live as they happen in development",
+  "version": "0.0.1",
+  "keywords": [
+    "live",
+    "css",
+    "dev",
+    "development"
+  ],
+  "dependencies": {
+    "visionmedia-superagent": "git://github.com/npmcomponent/visionmedia-superagent.git",
+    "visionmedia-debug": "git://github.com/npmcomponent/visionmedia-debug.git",
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-url": "git://github.com/npmcomponent/component-url.git"
+  },
+  "license": "MIT"
+}

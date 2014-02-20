@@ -3,10 +3,10 @@
  * Module dependencies.
  */
 
-var request = require('superagent')
-  , debug = require('debug')('live-css')
-  , each = require('each')
-  , url = require('url');
+var request = require('visionmedia-superagent')
+  , debug = require('visionmedia-debug')('live-css')
+  , each = require('component-each')
+  , url = require('component-url');
 
 /**
  * Poll timer.
